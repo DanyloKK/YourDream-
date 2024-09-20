@@ -488,6 +488,7 @@ footer{
   padding-top: 132px;
   .container{
     .row{
+      margin-bottom: 75px;
       .col-xl-2{
         .row.bg-light.rounded-pill{
           &:hover{
@@ -544,5 +545,14 @@ footer{
       }
     }
     }
+  }
+  .d-flex.justify-content-center.gap-3.border-bottom{
+    max-width: 500px;
+    padding-bottom: 17px;
+  }
+  .last-item{
+    @include Styles(400, 18px, 0em, none, #e2e2e2);
+    padding-bottom: 33px;
+    margin-top: 16px;
   }
 }

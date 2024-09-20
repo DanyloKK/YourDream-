@@ -554,6 +554,9 @@ footer {
   background: #383638;
   padding-top: 132px;
 }
+footer .container .row {
+  margin-bottom: 75px;
+}
 footer .container .row .col-xl-2 .row.bg-light.rounded-pill:hover {
   background: #0d0d0d;
   color: #377dff;
@@ -607,6 +610,19 @@ footer .container .row .col-xl-2 li .text-decoration-none {
 }
 footer .container .row .col-xl-2 li .text-decoration-none:hover {
   color: #377dff;
+}
+footer .d-flex.justify-content-center.gap-3.border-bottom {
+  max-width: 500px;
+  padding-bottom: 17px;
+}
+footer .last-item {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0em;
+  text-transform: none;
+  color: #e2e2e2;
+  padding-bottom: 33px;
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=Myy.css.map */
