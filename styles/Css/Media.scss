@@ -24,6 +24,108 @@
 }
 
 
+
+@media (max-width: 1200px) {
+  .Sixth-Section {
+    .container {
+      h3 {
+        @include Styles(24px, 0.01em, none, #e2e2e2);
+        line-height: 100%;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        @include Styles(55px, 0em, none, #e2e2e2);
+        margin-bottom: 50px;
+      }
+
+      .carousel-user {
+        box-shadow: 0 8px 24px 0 rgba(163, 163, 163, 0.05);
+        background: #0b0f15;
+        border-radius: 20px;
+        padding: 55px 0 70px 0;
+
+        .carousel-text {
+          @include Styles(25px, 0.01em, none, #e2e2e2);
+          line-height: 100%;
+          font-weight: 600;
+          font-family: "Quicksand-Regular", sans-serif;
+          margin: 1px 0 0 32px;
+
+          span {
+            @include Styles(14px, 0.01em, none, #e2e2e2);
+            line-height: 109%;
+            opacity: 0.5;
+            font-weight: 400;
+            font-family: "Quicksand-Regular", sans-serif;
+          }
+        }
+
+        .text-slide {
+          margin: 15px 0 0 30px;
+        }
+
+        .quote {
+          @include Styles(25px, 0.01em, none, #e2e2e2);
+          line-height: 156%;
+          opacity: 0.8;
+          font-weight: 400;
+          font-family: "Quicksand-Regular", sans-serif;
+          max-width: 400px;
+          margin: 0 0 0 50px;
+        }
+      }
+    }
+  }
+  .carousel-inner {
+
+    .carousel-item {
+
+      .carousel-info {
+        margin: 0 0 35px 0;
+      }
+    }
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  .Seventh-Section {
+    .container {
+      .row.justify-content-between {
+        .col-xl-3.col-lg-3.col-md-10.position-relative {
+          left: 1%;
+          top: -35px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .carousel-inner {
+    overflow: visible;
+
+    .carousel-item {
+      float: none;
+      display: block;
+      margin: 0 0 40px 0;
+
+      .carousel-info {
+        margin: 0 0 70px 0;
+      }
+    }
+  }
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+
 @media (max-width: 992px) {
   .First-Section {
     .container {
@@ -108,18 +210,63 @@
   }
 }
 
-
-@media (max-width: 1200px) {
-  .Seventh-Section {
+@media (max-width: 992px) {
+  .Sixth-Section {
     .container {
-      .row.justify-content-between {
-        .col-xl-3.col-lg-3.col-md-10.position-relative {
-          left: 1%;
-          top: -35px;
+      h3 {
+        @include Styles(24px, 0.01em, none, #e2e2e2);
+        line-height: 100%;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        @include Styles(55px, 0em, none, #e2e2e2);
+        margin-bottom: 50px;
+      }
+
+      .carousel-user {
+        box-shadow: 0 8px 24px 0 rgba(163, 163, 163, 0.05);
+        background: #0b0f15;
+        border-radius: 20px;
+        padding: 55px 0 70px 0;
+
+        .carousel-text {
+          @include Styles(20px, 0.01em, none, #e2e2e2);
+          line-height: 100%;
+          font-weight: 600;
+          font-family: "Quicksand-Regular", sans-serif;
+          margin: 1px 0 0 32px;
+
+          span {
+            @include Styles(11px, 0.01em, none, #e2e2e2);
+            line-height: 109%;
+            opacity: 0.5;
+            font-weight: 400;
+            font-family: "Quicksand-Regular", sans-serif;
+          }
+        }
+
+        .text-slide {
+          margin: 15px 0 0 30px;
+        }
+
+        .quote {
+          @include Styles(18px, 0.01em, none, #e2e2e2);
+          line-height: 156%;
+          opacity: 0.8;
+          font-weight: 400;
+          font-family: "Quicksand-Regular", sans-serif;
+          max-width: 300px;
+          margin: 0 0 0 60px;
         }
       }
     }
+
+    .carousel-info {
+      margin: 0 0 30px 0;
+    }
   }
+
 }
 
 
