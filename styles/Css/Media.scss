@@ -128,7 +128,7 @@
 @media (max-width: 992px) {
   .First-Section {
     .container {
-      h1 {
+      .first__section-title {
         font-size: 56px;
       }
 
@@ -297,13 +297,8 @@
       }
 
       &::after {
-        z-index: -1;
-        bottom: -20px;
-        left: 322px;
-        content: "";
-        position: absolute;
-        width: 98px;
-        height: 70px;
+
+        display: none;
         background-image: url(../../src/assets/Images/purple-dots.svg);
       }
     }
@@ -314,7 +309,7 @@
 @media (max-width: 768px) {
   .First-Section {
     .container {
-      h1 {
+      .first__section-title {
         font-size: 46px;
       }
     }
@@ -399,6 +394,12 @@
     }
   }
 ;
+  .nav__link.menu{
+   left: 33%;
+  }
+  .nav__link.menu:nth-of-type(3){
+    left: 28%;
+  }
   .navbar-toggler {
     display: none;
   }
@@ -463,6 +464,9 @@
 }
 
 @media (max-width: 464px) {
+  .nav__link.menu{
+    font-size: 47px;
+  }
   .Sixth-Section {
     .container {
       h3 {
@@ -518,7 +522,7 @@
         }
 
         .quote {
-          margin: 0 0 0 50px;
+          margin: 0 0 0 80px;
         }
       }
     }

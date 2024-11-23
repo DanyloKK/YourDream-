@@ -69,10 +69,16 @@
   font-display: swap;
 }
 
-body {
+.bg-black body {
   background: black;
   overflow-x: hidden;
-  padding: 0;
+  padding-top:70px;
+}
+#body{
+  padding-top: 0;
+}
+.header{
+  padding: 30px;
 }
 
 .navbar-nav {
@@ -83,17 +89,21 @@ body {
   opacity: 1;
 }
 
-.nav-link {
+.nav-link.color {
   font-family: "Quicksand-Bold";
   @include Styles(18px, 0.01em, capitalize, #e2e2e2);
   line-height: 133%;
+  margin: 25px 0 0 0;
+  &.color{
+    color:#e2e2e2 ;
+  }
 
   &:hover {
     color: #377dff;
   }
 }
 
-.navbar-link {
+.navbar-link.contact {
   @include Styles(16px, 0.01em, none, #e2e2e2);
   text-decoration: none;
   border: 1px solid #e2e2e2;
@@ -168,6 +178,7 @@ body {
   .container {
     max-width: 739px;
     position: relative;
+    z-index: -11;
 
     &::before {
       content: "";
@@ -244,6 +255,7 @@ body {
       border-radius: 16px;
       position: absolute;
       top: 24px;
+
       left: -90px;
       z-index: 2;
 
@@ -317,7 +329,7 @@ body {
       }
 
       .btn:nth-of-type(2) {
-        margin-left: 25px;
+        margin-left: 0;
         padding: 10px 50px;
         text-decoration: none;
         @include Styles(16px, 0.01em, uppercase, #e2e2e2);
