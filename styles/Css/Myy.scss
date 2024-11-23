@@ -71,12 +71,16 @@
 
 body {
   background: black;
-  padding-top: 70px;
   overflow-x: hidden;
+  padding: 0;
 }
 
 .navbar-nav {
   gap: 50px;
+}
+.navbar.navbar-expand-lg.justify-content-lg-center{
+  visibility: visible;
+  opacity: 1;
 }
 
 .nav-link {
@@ -408,7 +412,6 @@ body {
     }
   }
 }
-
 .Fifth-Section {
   padding-bottom: 140px;
 
